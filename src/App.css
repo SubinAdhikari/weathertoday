@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0px;
+  padding: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainDiv{
+  width: 100%;
+  height: 100vh;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.centerDiv{
+  width: 330px;
+  height: 90%;
+  background-color: tomato;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 25px;
 }
-
-.App-link {
-  color: #61dafb;
+.centerDiv .title{
+  width: 75%;
+  height: 10%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.centerDiv .title span{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(12, 12, 88);
+}
+.centerDiv .inputDiv{
+  width: 75%;
+  height: 10%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputDiv input{
+  height: 30px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+}
+.centerDiv .displayCountryAndDateDiv{
+  width: 75%;
+  height: 20%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.displayCountryAndDateDiv span{
+  font-size: 30px;
+  font-weight: 600;
+}
+.centerDiv .displayTemperatureDiv{
+  width: 75%;
+  height: 20%;
+  /* background-color: grey; */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.displayTemperatureDiv span{
+  font-size: 70px;
+  font-weight: 600;
+}
+.centerDiv .displayConditionDiv{
+width: 75%;
+height: 20%;
+/* background-color: hotpink; */
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.displayConditionDiv span{
+  font-size: 30px;
+  font-weight: 600;
 }
