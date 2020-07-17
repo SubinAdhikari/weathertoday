@@ -65,16 +65,16 @@ useEffect(()=>{
         <div className="displayConditionDiv">
                 <span>{state.weather[0].main}</span>
 
-                {(state.weather[0].main)=='Rain' ? <img src="http://openweathermap.org/img/w/10n.png"/> : null}
-                {(state.weather[0].main)=='Clouds' ? <img src="http://openweathermap.org/img/w/04d.png"/>  : null}
-                {(state.weather[0].main)=='Clear' ? <img src="http://openweathermap.org/img/w/01d.png"/>  : null}
-                {(state.weather[0].main)=='Snow' ? <img src="http://openweathermap.org/img/w/13d.png"/> : null}
-                {(state.weather[0].main)=='Thunderstorm' ? <img src="http://openweathermap.org/img/w/11d.png"/>  : null}
-                {(state.weather[0].main)=='Drizzle' ? <img src="http://openweathermap.org/img/w/09d.png"/>  : null}
-                {(state.weather[0].main)=='Mist' ? <img src="http://openweathermap.org/img/w/50d.png"/> : null}
-                {(state.weather[0].main)=='shower rain' ? <img src="http://openweathermap.org/img/w/09d.png"/>  : null}
-                {(state.weather[0].main)=='few clouds' ? <img src="http://openweathermap.org/img/w/02d.png"/>  : null}
-                {(state.weather[0].main)=='Haze' ? <img src="http://openweathermap.org/img/w/50d.png"/> : null}
+                {(state.weather[0].main)=='Rain' ? <img src="https://openweathermap.org/img/w/10n.png"/> : null}
+                {(state.weather[0].main)=='Clouds' ? <img src="https://openweathermap.org/img/w/04d.png"/>  : null}
+                {(state.weather[0].main)=='Clear' ? <img src="https://openweathermap.org/img/w/01d.png"/>  : null}
+                {(state.weather[0].main)=='Snow' ? <img src="https://openweathermap.org/img/w/13d.png"/> : null}
+                {(state.weather[0].main)=='Thunderstorm' ? <img src="https://openweathermap.org/img/w/11d.png"/>  : null}
+                {(state.weather[0].main)=='Drizzle' ? <img src="https://openweathermap.org/img/w/09d.png"/>  : null}
+                {(state.weather[0].main)=='Mist' ? <img src="https://openweathermap.org/img/w/50d.png"/> : null}
+                {(state.weather[0].main)=='shower rain' ? <img src="https://openweathermap.org/img/w/09d.png"/>  : null}
+                {(state.weather[0].main)=='few clouds' ? <img src="https://openweathermap.org/img/w/02d.png"/>  : null}
+                {(state.weather[0].main)=='Haze' ? <img src="https://openweathermap.org/img/w/50d.png"/> : null}
 
                 
 
