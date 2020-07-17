@@ -27,7 +27,7 @@ const App = () =>{
 useEffect(()=>{
 
   async function getData(){
-      const res = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=9ed070076895cbb9f58c1387d3599ca3`)
+      const res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=9ed070076895cbb9f58c1387d3599ca3`)
       console.log(res.data);
       setState(res.data);
 
